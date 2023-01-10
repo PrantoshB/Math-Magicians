@@ -1,10 +1,16 @@
-import './App.css';
+import './styles/App.css';
+import { Component } from 'react';
+import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to Math Magicians Website</h1>
-    </div>
-  );
+// eslint-disable-next-line react/prefer-stateless-function
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Calculator />
+      </>
+    );
+  }
 }
+
 export default App;
