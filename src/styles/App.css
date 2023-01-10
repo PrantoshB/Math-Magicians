@@ -1,0 +1,38 @@
+.MainBody {
+  width: 370px;
+  background: rgb(204, 204, 204);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1px;
+  margin: 15% 2% 0 auto;
+}
+
+.result {
+  background: rgb(172, 172, 172);
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+  padding: 4%;
+}
+
+.num-symb {
+  display: flex;
+  background: transparent;
+  height: 3rem;
+}
+
+.buttons {
+  background: rgb(233, 233, 233);
+  width: 25%;
+  cursor: pointer;
+  border-width: 0 1px 0 0;
+  border-color: rgb(255, 255, 255);
+}
+
+.operator {
+  background: rgb(255, 121, 44);
+}
+
+#bigbtn {
+  width: 50%;
+}
