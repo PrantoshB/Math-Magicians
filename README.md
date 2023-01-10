@@ -2,10 +2,7 @@
 
 <div align="center">
   <h3><b>Math Magicians</b></h3>
-
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -31,8 +28,7 @@
 # 📖 Math Magician <a name="about-project"></a>
 
 
-
-**Math Magician** is a website for mathematics lovers. The website is built with React JS.
+<b>Math Magicians</b> is a website for Mathematics lovers. The website is built with React JS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
