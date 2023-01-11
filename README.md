@@ -60,7 +60,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://prantoshb.github.io/Math-Magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

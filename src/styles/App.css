@@ -8,11 +8,12 @@
 }
 
 .result {
-  background: rgb(172, 172, 172);
+  background: rgb(77, 77, 77);
   display: flex;
   flex-direction: row-reverse;
   color: white;
   padding: 4%;
+  height: 1.2rem;
 }
 
 .num-symb {
@@ -27,6 +28,11 @@
   cursor: pointer;
   border-width: 0 1px 0 0;
   border-color: rgb(255, 255, 255);
+}
+
+.buttons:hover {
+  background: rgb(82, 82, 82);
+  color: white;
 }
 
 .operator {
