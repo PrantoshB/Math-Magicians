@@ -11,42 +11,45 @@ const Calculator = () => {
   };
 
   return (
-    <div className="MainBody">
-      <div className="result">
-        {total}
-        {' '}
-        {operation}
-        {' '}
-        {next}
-      </div>
-      <div className="num-symb">
-        <button className="buttons" type="button" onClick={clickHandle}>AC</button>
-        <button className="buttons" type="button" onClick={clickHandle}>+/-</button>
-        <button className="buttons" type="button" onClick={clickHandle}>%</button>
-        <button className="buttons operator" type="button" onClick={clickHandle}>÷</button>
-      </div>
-      <div className="num-symb">
-        <button className="buttons" type="button" onClick={clickHandle}>7</button>
-        <button className="buttons" type="button" onClick={clickHandle}>8</button>
-        <button className="buttons" type="button" onClick={clickHandle}>9</button>
-        <button className="buttons operator" type="button" onClick={clickHandle}>×</button>
-      </div>
-      <div className="num-symb">
-        <button className="buttons" type="button" onClick={clickHandle}>4</button>
-        <button className="buttons" type="button" onClick={clickHandle}>5</button>
-        <button className="buttons" type="button" onClick={clickHandle}>6</button>
-        <button className="buttons operator" type="button" onClick={clickHandle}>-</button>
-      </div>
-      <div className="num-symb">
-        <button className="buttons" type="button" onClick={clickHandle}>1</button>
-        <button className="buttons" type="button" onClick={clickHandle}>2</button>
-        <button className="buttons" type="button" onClick={clickHandle}>3</button>
-        <button className="buttons operator" type="button" onClick={clickHandle}>+</button>
-      </div>
-      <div className="num-symb">
-        <button className="buttons" id="bigbtn" type="button" onClick={clickHandle}>0</button>
-        <button className="buttons" type="button" onClick={clickHandle}>.</button>
-        <button className="buttons operator" type="button" onClick={clickHandle}>=</button>
+    <div className="CalcPage">
+      <h2>Let&apos;s do some math!</h2>
+      <div className="MainBody">
+        <div className="result">
+          {total}
+          {' '}
+          {operation}
+          {' '}
+          {next}
+        </div>
+        <div className="num-symb">
+          <button className="buttons" type="button" onClick={clickHandle}>AC</button>
+          <button className="buttons" type="button" onClick={clickHandle}>+/-</button>
+          <button className="buttons" type="button" onClick={clickHandle}>%</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>÷</button>
+        </div>
+        <div className="num-symb">
+          <button className="buttons" type="button" onClick={clickHandle}>7</button>
+          <button className="buttons" type="button" onClick={clickHandle}>8</button>
+          <button className="buttons" type="button" onClick={clickHandle}>9</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>×</button>
+        </div>
+        <div className="num-symb">
+          <button className="buttons" type="button" onClick={clickHandle}>4</button>
+          <button className="buttons" type="button" onClick={clickHandle}>5</button>
+          <button className="buttons" type="button" onClick={clickHandle}>6</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>-</button>
+        </div>
+        <div className="num-symb">
+          <button className="buttons" type="button" onClick={clickHandle}>1</button>
+          <button className="buttons" type="button" onClick={clickHandle}>2</button>
+          <button className="buttons" type="button" onClick={clickHandle}>3</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>+</button>
+        </div>
+        <div className="num-symb">
+          <button className="buttons" id="bigbtn" type="button" onClick={clickHandle}>0</button>
+          <button className="buttons" type="button" onClick={clickHandle}>.</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>=</button>
+        </div>
       </div>
     </div>
   );
