@@ -1,10 +1,14 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .MainBody {
-  width: 370px;
+  width: 500px;
   background: rgb(204, 204, 204);
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 1px;
-  margin: 15% 2% 0 auto;
+  margin: 1% 0 0 auto;
 }
 
 .result {
@@ -13,13 +17,13 @@
   flex-direction: row-reverse;
   color: white;
   padding: 4%;
-  height: 1.2rem;
+  height: 1.5rem;
 }
 
 .num-symb {
   display: flex;
   background: transparent;
-  height: 3rem;
+  height: 4rem;
 }
 
 .buttons {
@@ -41,4 +45,50 @@
 
 #bigbtn {
   width: 50%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.navigation ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation ul a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+.CalcPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.homepage,
+.quotes {
+  padding: 2%;
+}
+
+.homepage p {
+  font-size: 1.2rem;
+}
+
+.quotes p {
+  font-size: 2rem;
+  font-weight: 200;
 }
