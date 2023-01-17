@@ -144,12 +144,10 @@ If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- [ ] Style the web application for better User Experience.
+- [ ] Add API to fetch the Mathematical quotes.
+- [ ] Change the dummy text in Homepage with real information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
