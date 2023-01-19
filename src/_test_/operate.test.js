@@ -23,6 +23,11 @@ describe('Testing division', () => {
     const division = operate('55', '11', '÷');
     expect(division).toBe('5');
   });
+  test('when -66 is divided by 11, it should return -6', () => {
+    const division = operate('-66', '11', '÷');
+    expect(division).toBe('-6');
+  });
+  
   test('when 5 is divided by 0, it should throw error', () => {
     const division = operate('5', '0', '÷');
     expect(division).toEqual('Can\'t divide by 0.');
