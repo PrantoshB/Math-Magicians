@@ -6,6 +6,12 @@ describe('Testing addition', () => {
     expect(sum).toBe('5');
   });
 });
+describe('Testing addition of negative numbers', () => {
+  test('sum of -5 and -3 should return -8', () => {
+    const sum = operate('-5', '-3', '+');
+    expect(sum).toBe('-8');
+  });
+});
 describe('Testing multiplication', () => {
   test('product of 41 and 5 should return 205', () => {
     const product = operate('41', '5', '×');
