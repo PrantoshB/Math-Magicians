@@ -22,9 +22,9 @@ const Calculator = () => {
           {next}
         </div>
         <div className="num-symb">
-          <button className="buttons" type="button" onClick={clickHandle}>AC</button>
-          <button className="buttons" type="button" onClick={clickHandle}>+/-</button>
-          <button className="buttons" type="button" onClick={clickHandle}>%</button>
+          <button className="buttons all-clear" type="button" onClick={clickHandle}>AC</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>+/-</button>
+          <button className="buttons operator" type="button" onClick={clickHandle}>%</button>
           <button className="buttons operator" type="button" onClick={clickHandle}>÷</button>
         </div>
         <div className="num-symb">
