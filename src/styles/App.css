@@ -1,46 +1,63 @@
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  /* background: linear-gradient(90deg, #ff9090 0%, #ffd4d4 100%); */
+  background: linear-gradient(90deg, #d53369 0%, #98222c 100%);
 }
 
 .MainBody {
-  width: 500px;
-  background: rgb(204, 204, 204);
+  width: 350px;
+  background: rgb(11, 11, 11);
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 1px;
   margin: 1% 0 0 auto;
+  border-radius: 15px;
+  padding: 1% 0.1%;
 }
 
 .result {
-  background: rgb(77, 77, 77);
   display: flex;
   flex-direction: row-reverse;
+  align-items: flex-end;
   color: white;
-  padding: 4%;
-  height: 1.5rem;
+  padding: 5%;
+  height: 5rem;
+  font-size: 1.8rem;
 }
 
 .num-symb {
   display: flex;
   background: transparent;
-  height: 4rem;
+  height: 4.5rem;
+  gap: 0.8rem;
+  padding: 2% 3%;
 }
 
 .buttons {
-  background: rgb(233, 233, 233);
+  background: rgb(25, 25, 25);
   width: 25%;
   cursor: pointer;
-  border-width: 0 1px 0 0;
-  border-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: rgb(255, 231, 231);
 }
 
 .buttons:hover {
-  background: rgb(82, 82, 82);
-  color: white;
+  background: rgb(182, 182, 1);
+  color: rgb(44, 44, 44);
 }
 
 .operator {
-  background: rgb(255, 121, 44);
+  background: rgb(194, 0, 0);
+}
+
+.all-clear {
+  background: rgb(255, 86, 86);
 }
 
 #bigbtn {
@@ -50,7 +67,9 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding: 1%;
+  align-items: center;
+  color: white;
 }
 
 .navigation ul {
@@ -68,7 +87,7 @@
 .CalcPage {
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding: 0 2%;
 }
 
 h2 {
@@ -91,4 +110,40 @@ h1 {
 .quotes p {
   font-size: 2rem;
   font-weight: 200;
+}
+
+.navigation img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.img-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navigation ul {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .CalcPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MainBody {
+    width: 320px;
+    margin: 0 auto;
+    padding: 1%;
+  }
 }
